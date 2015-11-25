@@ -8,24 +8,19 @@ export default {
             name: 'example',
             children: [
                 {
-                    name: 'app.js',
-                    terminal: true
+                    name: 'app.js'
                 },
                 {
-                    name: 'data.js',
-                    terminal: true
+                    name: 'data.js'
                 },
                 {
-                    name: 'index.html',
-                    terminal: true
+                    name: 'index.html'
                 },
                 {
-                    name: 'styles.js',
-                    terminal: true
+                    name: 'styles.js'
                 },
                 {
-                    name: 'webpack.config.js',
-                    terminal: true
+                    name: 'webpack.config.js'
                 }
             ]
         },
@@ -40,18 +35,15 @@ export default {
                     name: 'components',
                     children: [
                         {
-                            name: 'decorators.js',
-                            terminal: true
+                            name: 'decorators.js'
                         },
                         {
-                            name: 'treebeard.js',
-                            terminal: true
+                            name: 'treebeard.js'
                         }
                     ]
                 },
                 {
-                    name: 'index.js',
-                    terminal: true
+                    name: 'index.js'
                 }
             ]
         },
@@ -59,26 +51,21 @@ export default {
             name: 'themes',
             children: [
                 {
-                    name: 'animations.js',
-                    terminal: true
+                    name: 'animations.js'
                 },
                 {
-                    name: 'default.js',
-                    terminal: true
+                    name: 'default.js'
                 }
             ]
         },
         {
-            name: 'Gulpfile.js',
-            terminal: true
+            name: 'Gulpfile.js'
         },
         {
-            name: 'index.js',
-            terminal: true
+            name: 'index.js'
         },
         {
-            name: 'package.json',
-            terminal: true
+            name: 'package.json'
         }
     ]
 };
